@@ -146,25 +146,6 @@ function handleCollision(index) {
       Matter.Body.setVelocity(basket.body, { x: fruitCounter / 2 - 1, y: 0 });
     }
   }
-  //if (!basket.isMoving) {
-    var dx = -(fruitCounter / 2 - 1)
-    //basket.isMoving = true;
-  //}
-  if (basket.body.position.x >= width - 200) {
-    dx = -dx;
-    basket.body.position.x -= 100;
-  }
-  if (basket.body.position.x - 200 <= 300) {
-    dx = fruitCounter / 2 - 1
-    basket.body.position.x += 100;
-    console.log(dx);
-  }
-  if (fruitCounter > 2) {
-    if (basket.body.isStatic) {
-      Matter.Body.setStatic(basket.body, false);
-    }
-    basket.body.position.x += dx
-  }
 }*/
 
 function gameOver() {
