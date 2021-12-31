@@ -1,0 +1,11 @@
+moving basket ❌
+
+coins✅
+
+life powerup✅
+
+title for game✅
+
+game over (positive and negative) ✅
+
+fruit counter on basket ✅

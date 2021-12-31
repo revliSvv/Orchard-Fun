@@ -1,0 +1,14 @@
+tasks - get fruits into basket
+
+rules - only 3 missed fruits 
+	basket will begin moving after first two fruits in
+	basket will speed up every prior fruit
+	coins will boost your score (+5)
+	fruit will give +2 to score
+
+goal - get the most score within 3 lives
+
+characters - basket
+	     fruits
+	     coins
+	     
