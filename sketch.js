@@ -135,8 +135,8 @@ function handleCollision(index) {
   }
 }
 
-function moveBasket() {
-  /*if (fruitCounter > 2) {
+/*function moveBasket() {
+  if (fruitCounter > 2) {
     if (basket.body.position.x < width - 10) {
       Matter.Body.setStatic(basket.body, false);
       //basket.body.position.x -= fruitCounter / 2 - 1
@@ -145,7 +145,7 @@ function moveBasket() {
     else if (basket.body.position.x < 200) {
       Matter.Body.setVelocity(basket.body, { x: fruitCounter / 2 - 1, y: 0 });
     }
-  }*/
+  }
   //if (!basket.isMoving) {
     var dx = -(fruitCounter / 2 - 1)
     //basket.isMoving = true;
@@ -165,7 +165,7 @@ function moveBasket() {
     }
     basket.body.position.x += dx
   }
-}
+}*/
 
 function gameOver() {
   if (score >= 100) {
